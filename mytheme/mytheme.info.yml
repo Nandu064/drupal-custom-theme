@@ -1,0 +1,14 @@
+name: My Theme-2
+description: 'It is a simple Drupal theme'
+type: theme
+version: VERSION
+core: 8.x
+package: Custom
+libraries:
+  - mytheme/global-css
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
